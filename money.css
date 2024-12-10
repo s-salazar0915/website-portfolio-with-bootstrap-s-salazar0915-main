@@ -1,0 +1,80 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    background-image: url(https://userstyles.org/style_screenshots/249357_after.jpeg?r=1710230473);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(240, 163, 186);
+    color: white;
+}
+
+
+.Text-Box {
+    background-color: rgb(255, 211, 219);
+    background-size: auto;
+    background-position: center;
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    border-color: antiquewhite;
+    font-family: monospace;
+}
+.input-group-prepend {
+    font-size: large;
+    font-family: monospace;
+}
+
+.from {
+    background-color: rgb(255, 211, 219);
+    margin: 30px;
+    height: 100px;
+    width: 130px;
+    border-radius: 50px;
+    font-family: monospace;
+    font-size: small;
+    color: rgb(126, 120, 120);
+    border-color: white;
+}
+
+.to {
+    background-color: rgb(255, 211, 219);
+    margin: 30px;
+    height: 100px;
+    width: 130px;
+    border-radius: 50px;
+    font-family: monospace;
+    font-size: x-small;
+    color: rgb(133, 126, 126);
+    border-color: white;
+}
+
+.Con-box {
+    background-color: rgb(255, 211, 219);
+    background-size: auto;
+    background-position: center;
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    border-color: antiquewhite;
+    font-family: monospace;
+    color: rgb(146, 139, 139);
+}
+
+.Converter_button{
+    background-color: rgb(255, 211, 219);
+    font-family: monospace;
+    color: rgb(117, 115, 115);
+    margin: 30px;
+    border-radius: 30%;
+    border-color: white;
+}
+
+.Restart_Button{
+    background-color: rgb(255, 211, 219);
+    font-family: monospace;
+    color: rgb(126, 122, 122);
+    margin: 30px;
+    border-radius: 30%;
+    border-color: white;
+}

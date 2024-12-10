@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="money.css">
+    <title>ੈ✩‧₊˚Hello Kitty Money Converterੈ✩‧₊˚</title>
+</head>
+<body>
+<h1 class="Big_Text"> ੈ✩‧₊˚Hello Kitty Money Converterੈ✩‧₊˚</h1>
+<hr>
+<div class="container">
+    <div class="Convert-section">
+        <div class="convertInput">
+            <label for="oamount">
+                Amount to Convert :
+            </label>
+            <input type="number" class="Text-Box" placeholder="0.00" id="oamount">
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">From</span>
+                    </div>
+                    <select class="from" id="sel1">
+                        <option value="">Select One …</option>
+                        <option value="USD">USD</option>
+                        <option value="YEN">Japanese Yen</option>
+                        <option value="PS">Pound Sterling</option>
+                        <option value="CAD">Canadian Dollar</option>
+                        <option value="INR">Indian Rupee</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">To</span>
+                    </div>
+                    <select class="to" id="sel2">
+                        <option value="HKC">Hello Kitty Money</option>
+                        <option>You</option>
+                        <option>Don't</option>
+                        <option>Have</option>
+                        <option>Other</option>
+                        <option>Options˚ ༘♡ ⋆｡˚</option>
+                    </select>
+                </div>
+            </div>
+            <div class="Stuff-in-the-middle">
+
+                <!--button that shows result-->
+                <button class="Converter_button" onclick="tom()">
+                    ✩‧₊˚Convert✩‧₊˚
+                </button>
+            </div>
+
+        </div>
+
+        <div id="result" class="Stuff-in-the-middle">
+            <!-- Shows converted amount -->
+            <form action>
+                <label for="Converted-amount">Converted-amount:</label>
+                <input  class="Con-box" id="converted_Amount" value="Converted Amount" readonly><br><br>
+            </form>
+        </div>
+    </div>
+
+    <script src="money.js"></script>
+</body>
+</html>
