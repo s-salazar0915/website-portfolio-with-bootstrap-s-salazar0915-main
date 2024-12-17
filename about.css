@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(255, 148, 228);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container-sm {
+    background-color: purple;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    border: dotted;
+}
