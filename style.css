@@ -15,3 +15,16 @@
     background-color: rgb(183, 183, 255);
     border-radius: 10%;
 }
+
+.name {
+    color:rgb(248, 0, 145);
+    border: dotted;
+    border-radius: 50%;
+    border-color: rgb(183, 183, 255);
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-link :hover{
+    color: blueviolet;
+}
